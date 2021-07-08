@@ -13,10 +13,10 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            Alliance Francaise de Fionie<span className="fancy">.</span>
           </h1>
           <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <p>Der findes uafhængige afdelinger af Alliance Française over hele verden. Vi arbejder alle med at fremme fransk kultur og sprog, og i nogle lande står alliancerne også for undervisning i det franske sprog. </p>
           <SocialList />
         </div>
       </div>
@@ -27,6 +27,7 @@ export default function Index() {
           justify-content: center;
           flex: 1 1 auto;
           padding: 0 1.5rem;
+          max-width: 72ch;
         }
         h1 {
           font-size: 2.5rem;
