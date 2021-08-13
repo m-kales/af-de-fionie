@@ -1,17 +1,26 @@
 import React from "react";
-import FaceBook from "../assets/facebook-alt.svg";
+import Twitter from "../assets/twitter-alt.svg";
+import GitHub from "../assets/github-alt.svg";
 import config from "../lib/config";
 
 export function SocialList({}) {
   return (
     <div>
       <a
-        title="Facebook"
-        href={`https://facebook.com/${config.facebook_account}`}
+        title="Twitter"
+        href={`https://twitter.com/${config.twitter_account}`}
         target="_blank"
         rel="noopener"
       >
-        <FaceBook width={24} height={24} fill={"#222"} />
+        <Twitter width={24} height={24} fill={"#222"} />
+      </a>
+      <a
+        title="GitHub"
+        href={`https://github.com/${config.github_account}`}
+        target="_blank"
+        rel="noopener"
+      >
+        <GitHub width={24} height={24} fill={"#222"} />
       </a>
       <style jsx>{`
         a {
