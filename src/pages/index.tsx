@@ -3,6 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import Traits from "../assets/traits-01.svg"
 
 export default function Index() {
   return (
@@ -13,9 +14,8 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Alliance Francaise de Fionie<span className="fancy">.</span>
+            Alliance Francaise de Fionie.
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
           <p>Der findes uafhængige afdelinger af Alliance Française over hele verden. Vi arbejder alle med at fremme fransk kultur og sprog, og i nogle lande står alliancerne også for undervisning i det franske sprog. </p>
           <SocialList />
         </div>
@@ -38,15 +38,6 @@ export default function Index() {
           font-size: 1.75rem;
           font-weight: 400;
           line-height: 1.25;
-        }
-        .fancy {
-          color: #15847d;
-        }
-        .handle {
-          display: inline-block;
-          margin-top: 0.275em;
-          color: #9b9b9b;
-          letter-spacing: 0.05em;
         }
 
         @media (min-width: 769px) {
