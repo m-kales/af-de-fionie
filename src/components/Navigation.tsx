@@ -13,7 +13,7 @@ export default function Navigation() {
         <ul>
           <li>
             <Link href="/">
-              <a className={router.pathname === "/" ? "active" : null}>about</a>
+              <a className={router.pathname === "/" ? "active" : null}>Forside</a>
             </Link>
           </li>
           <li>
@@ -24,6 +24,39 @@ export default function Navigation() {
                 }
               >
                 blog
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/bliv-medlem">
+              <a
+                className={
+                  router.pathname.startsWith("/bliv-medlem") ? "active" : null
+                }
+              >
+                Bliv medlem
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/bestyrelsen">
+              <a
+                className={
+                  router.pathname.startsWith("/bestyrelsen") ? "active" : null
+                }
+              >
+                Bestyrelsen
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/program">
+              <a
+                className={
+                  router.pathname.startsWith("/program") ? "active" : null
+                }
+              >
+                Program
               </a>
             </Link>
           </li>

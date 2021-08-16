@@ -14,7 +14,20 @@ export default function Index() {
           <h1>
             Alliance Francaise de Fionie.
           </h1>
-          <p>Der findes uafhængige afdelinger af Alliance Française over hele verden. Vi arbejder alle med at fremme fransk kultur og sprog, og i nogle lande står alliancerne også for undervisning i det franske sprog. </p>
+          <h2>Formål — hvem er vi?</h2>
+          <p>Der findes uafhængige afdelinger af Alliance Française over hele verden. Vi arbejder alle med at
+          fremme fransk kultur og sprog, og i nogle lande står alliancerne også for undervisning i det franske
+          sprog.</p>
+          <p>
+          Foreningen har hjemsted i Odense, men kommer gerne rundt på Fyn med foredrag mv., hvis der er
+          mulighed for det. Via foredrag, koncerter og andre arrangementer prøver vi at udbrede
+          kendskabet til Frankrig, det franske sprog og ikke mindst den franske kultur - og kulturen i andre
+          fransksprogede lande. Vi arbejder med kultur i bred forstand, fra sprog, litteratur, kunst og musik
+          til samfundsforhold, historie og det franske erhvervsliv. Også emner som mode, vin og mad kan
+          være at finde i vores program. Vi har jævnligt besøg af danske og franske kunstnere og
+          kulturpersonligheder. Vi tilbyder ikke sprogundervisning, da det i Danmark hører under
+          oplysningsforbundene.
+          </p>
           <SocialList />
         </div>
       </div>
