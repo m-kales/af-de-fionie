@@ -1,13 +1,9 @@
 tags:
-  - slug: document
-    name: document
-  - slug: mock
-    name: mock
-  - slug: style
-    name: style
-  - slug: license
-    name: license
-  - slug: mdx
-    name: mdx
-  - slug: markdown
-    name: markdown
+  - name: Årlige arrangementer
+    slug: aarlig
+  - slug: speciel
+    name: Specielle begivenheder
+  - slug: petanque
+    name: Pétanque
+  - slug: julequiz
+    name: Julequiz
