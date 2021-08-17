@@ -25,7 +25,7 @@ export default function Index() {
         .container {
           display: flex;
           align-items: center;
-          justify-content: center;
+          justify-content: left;
           flex: 1 1 auto;
           padding: 0 1.5rem;
           max-width: 72ch;

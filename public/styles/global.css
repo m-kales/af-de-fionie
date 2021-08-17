@@ -8,15 +8,25 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   height: 100%;
+  line-height: 1.5;;
 }
 
 #__next {
   height: 100%;
 }
 
+main {
+  max-width: 72ch;
+}
+
+.container {
+  justify-content: left;
+}
+
 h1, h2 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 a {

@@ -23,7 +23,7 @@ export default function Navigation() {
                   router.pathname.startsWith("/posts") ? "active" : null
                 }
               >
-                blog
+                Blog
               </a>
             </Link>
           </li>
@@ -102,12 +102,12 @@ export default function Navigation() {
 
             @media (min-width: 769px) {
               .container {
-                width: 7rem;
+                width: 8rem;
                 display: block;
               }
               ul {
                 opacity: 1;
-                width: 7rem;
+                width: 8rem;
                 top: auto;
                 display: block;
                 transform: translateY(0);
