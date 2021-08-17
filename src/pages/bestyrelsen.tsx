@@ -19,7 +19,6 @@ export default function Index() {
             Bodil Sodemann, bestyrelsesmedlem <br />
             Jens Uffe Rasmussen, bestyrelsesmedlem <br />
           </p>
-          <SocialList />
         </div>
       </div>
       <style jsx>{`
