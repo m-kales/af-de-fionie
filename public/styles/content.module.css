@@ -1,5 +1,4 @@
 .content {
-  font-family: "Ubuntu", sans-serif;
   color: #222;
   font-weight: 200;
 }
@@ -14,8 +13,21 @@
 }
 
 .content a {
-  color: blue;
-  text-decoration: underline;
+
+}
+
+.content a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: .1em;
+  top: 1.2em;
+  width: inherit;
+  background: linear-gradient(to right, red 0%,red 33%, white 33%,white 66%,#2184cd 66%,#2184cd 100%);
+  transition: all .3s cubic-bezier(.75,-0.31,.41,1.32);
+  transform: scale(1, 1);
 }
 
 .content h1 {
