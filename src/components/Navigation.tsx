@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Burger from "./Burger";
 import { useState } from "react";
+import Logo from "./Logo";
 
 export default function Navigation() {
   const router = useRouter();
@@ -9,6 +10,7 @@ export default function Navigation() {
   return (
     <>
       <Burger active={active} onClick={() => setActive(!active)} />
+      <Logo />
       <div className={"container " + (active ? "active" : "")}>
         <ul>
           <li>
@@ -63,6 +65,11 @@ export default function Navigation() {
         </ul>
         <style jsx>
           {`
+            .header-container {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+            }
             .container {
               width: 0;
             }
@@ -70,7 +77,7 @@ export default function Navigation() {
               opacity: 0;
               width: 100%;
               height: 100vh;
-              text-align: right;
+              text-align: center;
               list-style: none;
               margin: 0;
               padding: 0;
@@ -99,7 +106,6 @@ export default function Navigation() {
             .active {
               color: #222;
             }
-
             @media (min-width: 769px) {
               .container {
                 width: 8rem;
