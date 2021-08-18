@@ -9,4 +9,4 @@ type Config = {
   readonly facebook_account: string;
 };
 
-export default config as Config;
+export default (config as unknown) as Config;
