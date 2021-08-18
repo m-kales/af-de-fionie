@@ -77,7 +77,7 @@ export default function Navigation() {
               opacity: 0;
               width: 100%;
               height: 100vh;
-              text-align: center;
+              text-align: right;
               list-style: none;
               margin: 0;
               padding: 0;
