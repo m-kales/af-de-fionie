@@ -1,17 +1,12 @@
 {
-  "base_url": "https://amazing-williams-22c822.netlify.app/",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "https://amazing-williams-22c822.netlify.app",
+  "site_title": "Alliance Francaise de Fionie",
+  "site_description": "Fynsk forening, der udbreder kendskabet til fransk sprog og kultur.",
   "site_keywords": [
-    {
-      "keyword": "Next.js"
-    },
-    {
-      "keyword": "Netlify"
-    },
-    {
-      "keyword": "React"
-    }
+    "fransk",
+    "kultur",
+    "sprog",
+    "fyn"
   ],
   "posts_per_page": 5,
   "facebook_account": "AlliancefrancaisedeFionie"
