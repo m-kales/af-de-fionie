@@ -12,7 +12,8 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Alliance Francaise de Fionie.
+            Alliance Française <br />
+             de Fionie.
           </h1>
           <h2>Formål — hvem er vi?</h2>
           <p>Der findes uafhængige afdelinger af Alliance Française over hele verden. Vi arbejder alle med at
