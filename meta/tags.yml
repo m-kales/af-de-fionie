@@ -1,9 +1,13 @@
 tags:
-  - slug: aarlige
-    name: årlige arrangementer
-  - slug: speciel
-    name: specielle begivenheder
-  - slug: petanque
-    name: pétanque
-  - slug: jul
-    name: julequiz 
+  - slug: document
+    name: document
+  - slug: mock
+    name: mock
+  - slug: style
+    name: style
+  - slug: license
+    name: license
+  - slug: mdx
+    name: mdx
+  - slug: markdown
+    name: markdown
