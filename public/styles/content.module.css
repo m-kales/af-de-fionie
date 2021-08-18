@@ -12,10 +12,6 @@
   margin: 1.5rem 0 0 0;
 }
 
-.content a {
-
-}
-
 .content a::after {
   content: "";
   position: absolute;
