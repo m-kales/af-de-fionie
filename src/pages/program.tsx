@@ -1,12 +1,7 @@
 import Layout from "../components/Layout";
 import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
-import { SocialList } from "../components/SocialList";
-import dynamic from "next/dynamic";
-
-const PdfViewer = dynamic(() => import("../components/PdfViewer"), {
-  ssr: false
-});
+import Link from "next/link";
 
 export default function Index() {
   return (
@@ -17,8 +12,9 @@ export default function Index() {
       <div className="container">
         <div>
           <h2>Program</h2>
-          <PdfViewer url={"public/af-foraar-2020-v2.pdf"} width={"100%"} pageNumber={1} />
-          <SocialList />
+          <Link href="/images/af-foraar-2020-v2.pdf">
+            <a>Forår 2020</a>
+          </Link>
         </div>
       </div>
       <style jsx>{`
