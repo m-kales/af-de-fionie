@@ -51,7 +51,6 @@ a.active::after {
   a.active:hover::after {
     transform: scale(.9, 3);
     transform-origin: top;
-    transform-origin: top;
   }
 
 a {
