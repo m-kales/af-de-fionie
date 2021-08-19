@@ -18,6 +18,7 @@ export default function Logo(){
                     right: 1.25rem;
                     z-index: 2;
                     background-color: rgba(255, 255, 255, 0.7);
+                    padding: 0 .2rem;
                 }
                 `}
             </style>
