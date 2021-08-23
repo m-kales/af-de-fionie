@@ -11,10 +11,12 @@ export default function Index() {
 
       <div className="container">
         <div>
-          <h1>
-            Alliance Française <br />
-             de Fionie.
-          </h1>
+          <div className="hero" title="Photo by Antony BEC on unsplash.com">
+            <h1>
+              Alliance Française <br />
+              de Fionie.
+            </h1>
+          </div>
           <h2>Formål — hvem er vi?</h2>
           <p>Der findes uafhængige afdelinger af Alliance Française over hele verden. Vi arbejder alle med at
           fremme fransk kultur og sprog, og i nogle lande står alliancerne også for undervisning i det franske
@@ -35,16 +37,26 @@ export default function Index() {
       <style jsx>{`
         .container {
           display: flex;
-          align-items: center;
+          align-items: flex-start;
           justify-content: center;
           flex: 1 1 auto;
           padding: 0 1.5rem;
           max-width: 72ch;
         }
+        .hero {
+          padding: 3rem 0;
+          background-image: url('images/antony-bec-nD9tEn63suc-unsplash.jpg');
+          background-position: center;
+          background-size: cover;
+        }
         h1 {
           font-size: 2.5rem;
           margin: 0;
           font-weight: 500;
+          color: OldLace;
+          margin-left: 1rem;
+          margin-top: 1rem;
+          
         }
         h2 {
           font-size: 1.75rem;
@@ -54,7 +66,7 @@ export default function Index() {
 
         @media (min-width: 769px) {
           h1 {
-            font-size: 3rem;
+            font-size: 4rem;
           }
           h2 {
             font-size: 2.25rem;
