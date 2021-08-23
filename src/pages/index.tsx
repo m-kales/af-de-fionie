@@ -53,7 +53,7 @@ export default function Index() {
           font-size: 2.5rem;
           margin: 0;
           font-weight: 500;
-          color: OldLace;
+          color: LavenderBlush;
           margin-left: 1rem;
           margin-top: 1rem;
           
