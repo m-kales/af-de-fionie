@@ -55,8 +55,8 @@ export default function Index() {
           font-weight: 500;
           color: LavenderBlush;
           margin-left: 1rem;
+          margin-right: 1rem;
           margin-top: 1rem;
-          
         }
         h2 {
           font-size: 1.75rem;
