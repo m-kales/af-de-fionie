@@ -65,11 +65,6 @@ export default function Navigation() {
         </ul>
         <style jsx>
           {`
-            .header-container {
-              display: flex;
-              flex-direction: row;
-              justify-content: space-between;
-            }
             .container {
               width: 0;
             }
