@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@300;400&display=swap');
 
 html,
 body {
-  font-family: "Ubuntu", sans-serif;
   background-color: #fff;
   color: #222;
   font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
   font-weight: 300;
   height: 100%;
-  line-height: 1.5;;
+  line-height: 1.6;;
 }
 
 #__next {
@@ -32,6 +32,7 @@ h1, h2 {
 a {
   position: relative;
   display: inline;
+  font-weight: 400;
 }
 
 a.active::after {
@@ -54,7 +55,7 @@ a.active::after {
   }
 
 a {
-  color: #9b9b9b;
+  color: #888;
   text-decoration: none;
   transition: color 0.3s ease;
 }

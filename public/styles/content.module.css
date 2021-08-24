@@ -4,11 +4,11 @@
 }
 
 .content time {
-  color: #9b9b9b;
+  color: #888;
 }
 
 .content p {
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   margin: 1.5rem 0 0 0;
 }
 
@@ -49,7 +49,7 @@
   margin-left: -1em;
   font-weight: 300;
   font-size: 1.5rem;
-  color: #9b9b9b;
+  color: #888;
   display: none;
   content: "#";
 }
