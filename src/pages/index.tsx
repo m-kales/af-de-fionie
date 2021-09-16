@@ -45,7 +45,7 @@ export default function Index() {
         }
         .hero {
           padding: 3rem 0;
-          background-image: url('images/antony-bec-nD9tEn63suc-unsplash.jpg');
+          background-image: url('images/antony-bec-nD9tEn63suc-unsplash_medium.jpg');
           background-position: center;
           background-size: cover;
         }
