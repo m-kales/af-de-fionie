@@ -12,18 +12,28 @@ export default function Index() {
       <div className="container">
         <div>
           <h2>Program</h2>
-          <Link href="/pdf/af-foraar-2020-v2.pdf">
-            <a>Forår 2020</a>
-          </Link>
-          <Link href="/pdf/af-efteraar-2020-v5.pdf">
-            <a>Efterår 2020</a>
-          </Link>
-          <Link href="/pdf/af-foraar-2021-v5.pdf">
-            <a>Forår 2021</a>
-          </Link>
-          <Link href="/pdf/af-efteraar-2021-v3.pdf">
-            <a>Efterår 2021</a>
-          </Link>
+          <ul>
+            <li>
+              <Link href="/pdf/af-foraar-2020-v2.pdf">
+                <a>Forår 2020</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/pdf/af-efteraar-2020-v5.pdf">
+                <a>Efterår 2020</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/pdf/af-foraar-2021-v5.pdf">
+                <a>Forår 2021</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/pdf/af-efteraar-2021-v3.pdf">
+                <a>Efterår 2021</a>
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
       <style jsx>{`
@@ -44,6 +54,10 @@ export default function Index() {
           font-size: 1.75rem;
           font-weight: 400;
           line-height: 1.25;
+        }
+
+        li {
+          list-style: none;
         }
 
         @media (min-width: 769px) {
