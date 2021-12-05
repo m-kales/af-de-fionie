@@ -12,8 +12,17 @@ export default function Index() {
       <div className="container">
         <div>
           <h2>Program</h2>
-          <Link href="/images/af-foraar-2020-v2.pdf">
+          <Link href="/pdf/af-foraar-2020-v2.pdf">
             <a>Forår 2020</a>
+          </Link>
+          <Link href="/pdf/af-efteraar-2020-v5.pdf">
+            <a>Efterår 2020</a>
+          </Link>
+          <Link href="/pdf/af-foraar-2021-v5.pdf">
+            <a>Forår 2021</a>
+          </Link>
+          <Link href="/pdf/af-efteraar-2021-v3.pdf">
+            <a>Efterår 2021</a>
           </Link>
         </div>
       </div>
