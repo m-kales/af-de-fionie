@@ -35,14 +35,6 @@ export default function Index() {
         </div>
       </div>
       <style jsx>{`
-        .container {
-          display: flex;
-          align-items: flex-start;
-          justify-content: center;
-          flex: 1 1 auto;
-          padding: 0 1.5rem;
-          max-width: 72ch;
-        }
         .hero {
           padding: 3rem 0;
           background-image: url('images/antony-bec-nD9tEn63suc-unsplash_medium.jpg');

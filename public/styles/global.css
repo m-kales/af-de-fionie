@@ -8,6 +8,7 @@ body {
   font-size: 19px;
   font-weight: 300;
   height: 100%;
+  width: 100%;
   line-height: 1.6;;
 }
 
@@ -20,7 +21,12 @@ main {
 }
 
 .container {
-  justify-content: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1 1 auto;
+  padding: 0 1.5rem;
+  max-width: 72ch;
 }
 
 h1, h2 {

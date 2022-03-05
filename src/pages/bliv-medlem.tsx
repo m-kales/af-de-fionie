@@ -27,14 +27,6 @@ export default function Index() {
         </div>
       </div>
       <style jsx>{`
-        .container {
-          display: flex;
-          align-items: center;
-          justify-content: flex-start;
-          flex: 1 1 auto;
-          padding: 0 1.5rem;
-          max-width: 72ch;
-        }
         h1 {
           font-size: 2.5rem;
           margin: 0;
