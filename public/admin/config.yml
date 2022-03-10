@@ -6,6 +6,26 @@ public_folder: /images
 publish_mode: editorial_workflow
 
 collections:
+  - name: "pages"
+    label: "Pages"
+    delete: false
+    editor: 
+      preview: false
+    files:
+    - name: "home"
+      label: "Home"
+      file: "pages/home.yml"
+      description: "Home page content"
+      fields:
+        - label: "Title"
+          name: title
+          widget: string
+        - label: "Headline"
+          name: "headline"
+          widget: "string"
+        - label: "Body Text"
+          name: "body-text"
+          widget: "text"
   - name: "config"
     label: "Config"
     delete: false
